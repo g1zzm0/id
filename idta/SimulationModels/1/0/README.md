@@ -33,262 +33,262 @@ The Submodel may provide one or more simulation models, a service to generate a 
 [https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel)
 Feature collection to provide or request simulation models. Models can be described by objective and content.
 
-### SimulationModel/Summary (MLP)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Summary](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Summary)
+### Summary (MLP)
+[https://admin-shell.io/idta/SimulationModels/1/0/Summary](https://admin-shell.io/idta/SimulationModels/1/0/Summary)
 Summary of the contents of the simulation model in text form. 
 
-### SimulationModel/SimPurpose (SMC)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimPurpose](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimPurpose) This characteristic describes the simulation purpose or suitability for different simulation goals. 
+### SimPurpose (SMC)
+[https://admin-shell.io/idta/SimulationModels/1/0/SimPurpose](https://admin-shell.io/idta/SimulationModels/1/0/SimPurpose) This characteristic describes the simulation purpose or suitability for different simulation goals. 
 
-### SimulationModel/TypeOfModel (Property)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/TypeOfModel](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/TypeOfModel) List of modeling approaches used for the model
+### TypeOfModel (Property)
+[https://admin-shell.io/idta/SimulationModels/1/0/TypeOfModel](https://admin-shell.io/idta/SimulationModels/1/0/TypeOfModel) List of modeling approaches used for the model
 
-### SimulationModel/ScopeOfModel (Property)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ScopeOfModel](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ScopeOfModel) List of basic physical characteristics which are represented by the model.
+### ScopeOfModel (Property)
+[https://admin-shell.io/idta/SimulationModels/1/0/ScopeOfModel](https://admin-shell.io/idta/SimulationModels/1/0/ScopeOfModel) List of basic physical characteristics which are represented by the model.
 
-### SimulationModel/LicenseModel (Property)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/LicenseModel](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/LicenseModel) If a simulation model usage will be charged and how it will be charged. 
+### LicenseModel (Property)
+[https://admin-shell.io/idta/SimulationModels/1/0/LicenseModel](https://admin-shell.io/idta/SimulationModels/1/0/LicenseModel) If a simulation model usage will be charged and how it will be charged. 
 
-### SimulationModel/EngineeringDomain (Property)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/EngineeringDomain](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/EngineeringDomain) List of engineering disciplines supported or mapped with the model.  
+### EngineeringDomain (Property)
+[https://admin-shell.io/idta/SimulationModels/1/0/EngineeringDomain](https://admin-shell.io/idta/SimulationModels/1/0/EngineeringDomain) List of engineering disciplines supported or mapped with the model.  
 
-### SimulationModel/Environment (SMC)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment) Information about prerequisite environments or dependencies of underlying components on the target system. 
+### Environment (SMC)
+[https://admin-shell.io/idta/SimulationModels/1/0/Environment](https://admin-shell.io/idta/SimulationModels/1/0/Environment) Information about prerequisite environments or dependencies of underlying components on the target system. 
 
-### SimulationModel/RefSimDocumentation (File)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/RefSimDocumentation](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/RefSimDocumentation) Simulation Documentation Documentation of example simulations of the model can be supplied. This includes a solver setup and sample circuit and sample results. e.g. zip file, PDF, html, ... -
+### RefSimDocumentation (File)
+[https://admin-shell.io/idta/SimulationModels/1/0/RefSimDocumentation](https://admin-shell.io/idta/SimulationModels/1/0/RefSimDocumentation) Simulation Documentation Documentation of example simulations of the model can be supplied. This includes a solver setup and sample circuit and sample results. e.g. zip file, PDF, html, ... -
 
-### SimulationModel/ModelFile (SMC)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile) Providing versions of the simulation model and with characteristics to distinguish them. 
+### ModelFile (SMC)
+[https://admin-shell.io/idta/SimulationModels/1/0/ModelFile](https://admin-shell.io/idta/SimulationModels/1/0/ModelFile) Providing versions of the simulation model and with characteristics to distinguish them. 
 
-### SimulationModel/ParamMethod (Property)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ParamMethod](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ParamMethod) Indicates whether the model must be parameterized and if so, which method is required.
+### ParamMethod (Property)
+[https://admin-shell.io/idta/SimulationModels/1/0/ParamMethod](https://admin-shell.io/idta/SimulationModels/1/0/ParamMethod) Indicates whether the model must be parameterized and if so, which method is required.
 
-### SimulationModel/ParamFile (File)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ParamFile](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ParamFile) File for parameterization of the model. As parameter file or parameter documentation (e.g. pdf). 
+### ParamFile (File)
+[https://admin-shell.io/idta/SimulationModels/1/0/ParamFile](https://admin-shell.io/idta/SimulationModels/1/0/ParamFile) File for parameterization of the model. As parameter file or parameter documentation (e.g. pdf). 
 
-### SimulationModel/InitStateMethod (Property)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/InitStateMethod](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/InitStateMethod) Describes the state variables of the simulation model that must be initialized to start the simulation. For initial value problems, these quantities describe the system state at the start of the simulation. In this case, the system is in a state of equilibrium. Alternatively, a simulation model may include a method to determine consistent initial values at this step, e.g., at an operating point. 
+### InitStateMethod (Property)
+[https://admin-shell.io/idta/SimulationModels/1/0/InitStateMethod](https://admin-shell.io/idta/SimulationModels/1/0/InitStateMethod) Describes the state variables of the simulation model that must be initialized to start the simulation. For initial value problems, these quantities describe the system state at the start of the simulation. In this case, the system is in a state of equilibrium. Alternatively, a simulation model may include a method to determine consistent initial values at this step, e.g., at an operating point. 
 
-### SimulationModel/InitStateFile (File)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/InitStateFile](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/InitStateFile) File for parameterization of the model. As parameter file or parameter documentation (e.g. pdf). 
+### InitStateFile (File)
+[https://admin-shell.io/idta/SimulationModels/1/0/InitStateFile](https://admin-shell.io/idta/SimulationModels/1/0/InitStateFile) File for parameterization of the model. As parameter file or parameter documentation (e.g. pdf). 
 
-### SimulationModel/DefaultSimTime (Property)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/DefaultSimTime](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/DefaultSimTime) Predefined simulation period in seconds.
+### DefaultSimTime (Property)
+[https://admin-shell.io/idta/SimulationModels/1/0/DefaultSimTime](https://admin-shell.io/idta/SimulationModels/1/0/DefaultSimTime) Predefined simulation period in seconds.
 
-### SimulationModel/SimModManufacturerInformation (SMC)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimModManufacturerInformation](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimModManufacturerInformation) Provide access to  simulation support service provided by the distributor via mail or phone.
+### SimModManufacturerInformation (SMC)
+[https://admin-shell.io/idta/SimulationModels/1/0/SimModManufacturerInformation](https://admin-shell.io/idta/SimulationModels/1/0/SimModManufacturerInformation) Provide access to  simulation support service provided by the distributor via mail or phone.
 
-### SimulationModel/Ports (SMC)
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports) Interfaces of the model. This includes inputs, outputs as well as acausal connections (e.g. mechanical connections). In addition, it is specified here whether the model provides binary interfaces (e.g. for visualization).
+### Ports (SMC)
+[https://admin-shell.io/idta/SimulationModels/1/0/Ports](https://admin-shell.io/idta/SimulationModels/1/0/Ports) Interfaces of the model. This includes inputs, outputs as well as acausal connections (e.g. mechanical connections). In addition, it is specified here whether the model provides binary interfaces (e.g. for visualization).
 
 
-### SimulationModel/SimPurpose/PosSimPurpose (Property)
+### PosSimPurpose (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimPurpose/PosSimPurpose](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimPurpose/PosSimPurpose)
+[https://admin-shell.io/idta/SimulationModels/1/0/PosSimPurpose](https://admin-shell.io/idta/SimulationModels/1/0/PosSimPurpose)
 
 List of simulation purposes for which the model is intended
 
-### SimulationModel/SimPurpose/negSimPurpose (Property)
+### NegSimPurpose (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimPurpose/negSimPurpose](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimPurpose/negSimPurpose)
+[https://admin-shell.io/idta/SimulationModels/1/0/NegSimPurpose](https://admin-shell.io/idta/SimulationModels/1/0/NegSimPurpose)
 
 List of simulation purposes for which the model is explicitly not suitable. 
 
 
-### SimulationModel/Environment/operatingSystem (Property)
+### OperatingSystem (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/operatingSystem](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/operatingSystem)
+[https://admin-shell.io/idta/SimulationModels/1/0/OperatingSystem](https://admin-shell.io/idta/SimulationModels/1/0/OperatingSystem)
 
-### SimulationModel/Environment/ToolEnvironment (Property)
+### ToolEnvironment (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/ToolEnvironment](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/ToolEnvironment)
+[https://admin-shell.io/idta/SimulationModels/1/0/ToolEnvironment](https://admin-shell.io/idta/SimulationModels/1/0/ToolEnvironment)
 
-### SimulationModel/Environment/DependencyEnvironment (MLP)
+### DependencyEnvironment (MLP)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/DependencyEnvironment](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/DependencyEnvironment)
+[https://admin-shell.io/idta/SimulationModels/1/0/DependencyEnvironment](https://admin-shell.io/idta/SimulationModels/1/0/DependencyEnvironment)
 
-### SimulationModel/Environment/VisualizationInformation (Property)
+### VisualizationInformation (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/VisualizationInformation](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/VisualizationInformation)
+[https://admin-shell.io/idta/SimulationModels/1/0/VisualizationInformation](https://admin-shell.io/idta/SimulationModels/1/0/VisualizationInformation)
 
-### SimulationModel/Environment/SimulationTool (SMC)
+### SimulationTool (SMC)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool)
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationTool](https://admin-shell.io/idta/SimulationModels/1/0/SimulationTool)
 
-## SimulationModel/SimulationTool (SMC)
+## SimulationTool (SMC)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimulationTool](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimulationTool)
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationTool](https://admin-shell.io/idta/SimulationModels/1/0/SimulationTool)
 
 Contains properties of the model with regarding to concrete simulation tools.
 
-### SimulationModel/Environment/SimulationTool/SimToolName (Property)
+### SimToolName (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SimToolName](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SimToolName) Name of the simulation tool including version.
-## HERE continue
-### SimulationModel/Environment/SimulationTool/DependencySimTool (Property)
+[https://admin-shell.io/idta/SimulationModels/1/0/SimToolName](https://admin-shell.io/idta/SimulationModels/1/0/SimToolName) Name of the simulation tool including version.
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/DependencySimTool](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/DependencySimTool) Dependencies of Simulation Tools.
+### DependencySimTool (Property)
 
-### SimulationModel/Environment/SimulationTool/Compiler (Property)
+[https://admin-shell.io/idta/SimulationModels/1/0/DependencySimTool](https://admin-shell.io/idta/SimulationModels/1/0/DependencySimTool) Dependencies of Simulation Tools.
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/Compiler](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/Compiler) Name of necessary compiler including version
+### Compiler (Property)
 
-### SimulationModel/Environment/SimulationTool/SolverAndTolerances (SMC)
+[https://admin-shell.io/idta/SimulationModels/1/0/Compiler](https://admin-shell.io/idta/SimulationModels/1/0/Compiler) Name of necessary compiler including version
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances) Useful settings of the simulation environment. Includes e.g. solver settings. 
+### SolverAndTolerances (SMC)
 
-
-### SimulationModel/Environment/SimulationTool/SolverAndTolerances/StepSizeControlNeeded (Property)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/StepSizeControlNeeded](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/StepSizeControlNeeded) Whether the model requires adaptive step size
-
-### SimulationModel/Environment/SimulationTool/SolverAndTolerances/fixedStepSize (Property)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/fixedStepSize](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/fixedStepSize) Fixed integration step size, if there is no adaptive step size
-
-### SimulationModel/Environment/SimulationTool/SolverAndTolerances/StiffSolverNeeded (Property)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/StiffSolverNeeded](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/StiffSolverNeeded) Rigid integrator recommended.
-
-### SimulationModel/Environment/SimulationTool/SolverAndTolerances/SolverIncluded (Property)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/SolverIncluded](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/SolverIncluded) Solver is integrated in the model (e.g. FMU for co-simulation).
-
-### SimulationModel/Environment/SimulationTool/SolverAndTolerances/TestedToolSolverAlgorithm (SMC)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/TestedToolSolverAlgorithm](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/TestedToolSolverAlgorithm) List of validated tool-solver combinations.
+[https://admin-shell.io/idta/SimulationModels/1/0/SolverAndTolerances](https://admin-shell.io/idta/SimulationModels/1/0/SolverAndTolerances) Useful settings of the simulation environment. Includes e.g. solver settings. 
 
 
-### SimulationModel/Environment/SimulationTool/SolverAndTolerances/TestedToolSolverAlgorithm/SolverAlgorithm (Property)
+### StepSizeControlNeeded (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/TestedToolSolverAlgorithm/SolverAlgorithm](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/TestedToolSolverAlgorithm/SolverAlgorithm) validated solver.
+[https://admin-shell.io/idta/SimulationModels/1/0/StepSizeControlNeeded](https://admin-shell.io/idta/SimulationModels/1/0/StepSizeControlNeeded) Whether the model requires adaptive step size
 
-### SimulationModel/Environment/SimulationTool/SolverAndTolerances/TestedToolSolverAlgorithm/ToolSolverFurtherDescription (Property)
+### FixedStepSize (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/TestedToolSolverAlgorithm/ToolSolverFurtherDescription](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/TestedToolSolverAlgorithm/ToolSolverFurtherDescription) Further tool- and solver-specific information.
+[https://admin-shell.io/idta/SimulationModels/1/0/FixedStepSize](https://admin-shell.io/idta/SimulationModels/1/0/FixedStepSize) Fixed integration step size, if there is no adaptive step size
 
-### SimulationModel/Environment/SimulationTool/SolverAndTolerances/Tolerance (Property)
+### StiffSolverNeeded (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/TestedToolSolverAlgorithm/Tolerance](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SolverAndTolerances/TestedToolSolverAlgorithm/Tolerance) (relative) tolerance for theadaptive step size.
+[https://admin-shell.io/idta/SimulationModels/1/0/StiffSolverNeeded](https://admin-shell.io/idta/SimulationModels/1/0/StiffSolverNeeded) Rigid integrator recommended.
+
+### SolverIncluded (Property)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/SolverIncluded](https://admin-shell.io/idta/SimulationModels/1/0/SolverIncluded) Solver is integrated in the model (e.g. FMU for co-simulation).
+
+### TestedToolSolverAlgorithm (SMC)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/TestedToolSolverAlgorithm](https://admin-shell.io/idta/SimulationModels/1/0/TestedToolSolverAlgorithm) List of validated tool-solver combinations.
 
 
-### SimulationModel/ModelFile/ModelFileType (Property)
+### SolverAlgorithm (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileType](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileType) Designation of the exchange format of the model. E.G.: FMI 1.0, Co-Simulation, Platform / Source - Code. FMI 2.0.2, Model Exchange, Source - Code, S-function, Version 2, 64bit, mex - Format / or C-Code, Modelica 3, encoded, VHDL
+[https://admin-shell.io/idta/SimulationModels/1/0/SolverAlgorithm](https://admin-shell.io/idta/SimulationModels/1/0/SolverAlgorithm) validated solver.
 
-### SimulationModel/ModelFile/ModelFileVersion (SMC)
+### ToolSolverFurtherDescription (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileVersion](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileVersion) Provision of a version of the simulation model with information to distinguish the versions. The versions are primarily intended for bug fixes without content changes
+[https://admin-shell.io/idta/SimulationModels/1/0/ToolSolverFurtherDescription](https://admin-shell.io/idta/SimulationModels/1/0/ToolSolverFurtherDescription) Further tool- and solver-specific information.
+
+### Tolerance (Property)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/Tolerance](https://admin-shell.io/idta/SimulationModels/1/0/Tolerance) (relative) tolerance for theadaptive step size.
 
 
-### SimulationModel/ModelFile/ModelFileVersion/ModelVersionId (Property)
+### ModelFileType (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileVersion/VersionId](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileVersion/ModelVersionId)
+[https://admin-shell.io/idta/SimulationModels/1/0/ModelFileType](https://admin-shell.io/idta/SimulationModels/1/0/ModelFileType) Designation of the exchange format of the model. E.G.: FMI 1.0, Co-Simulation, Platform / Source - Code. FMI 2.0.2, Model Exchange, Source - Code, S-function, Version 2, 64bit, mex - Format / or C-Code, Modelica 3, encoded, VHDL
+
+### ModelFileVersion (SMC)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/ModelFileVersion](https://admin-shell.io/idta/SimulationModels/1/0/ModelFileVersion) Provision of a version of the simulation model with information to distinguish the versions. The versions are primarily intended for bug fixes without content changes
+
+
+### ModelVersionId (Property)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/VersionId](https://admin-shell.io/idta/SimulationModels/1/0/ModelVersionId)
 
 Version number of the model from the vendor.
 
-### SimulationModel/ModelFile/ModelFileVersion/ModelPreviewImage (File)
+### ModelPreviewImage (File)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileVersion/ModelPreviewImage](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileVersion/ModelPreviewImage)
+[https://admin-shell.io/idta/SimulationModels/1/0/ModelPreviewImage](https://admin-shell.io/idta/SimulationModels/1/0/ModelPreviewImage)
 
 Image file to represent the model in user interfaces, e.g. in a search.
 
-### SimulationModel/ModelFile/ModelFileVersion/DigitalFile (File)
+### DigitalFile (File)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileVersion/DigitalFile](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileVersion/DigitalFile)
+[https://admin-shell.io/idta/SimulationModels/1/0/DigitalFile](https://admin-shell.io/idta/SimulationModels/1/0/DigitalFile)
 
 Deployment of the model file
 
-### SimulationModel/ModelFile/ModelFileVersion/ModelFileReleaseNotesTxt (MLP)
+### ModelFileReleaseNotesTxt (MLP)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileVersion/ModelFileReleaseNotesTxt](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileVersion/ModelFileReleaseNotesTxt)
+[https://admin-shell.io/idta/SimulationModels/1/0/ModelFileReleaseNotesTxt](https://admin-shell.io/idta/SimulationModels/1/0/ModelFileReleaseNotesTxt)
 
 contains information about this release
 
-### SimulationModel/ModelFile/ModelFileVersion/ModelFileReleaseNotesFile (File)
+### ModelFileReleaseNotesFile (File)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileVersion/ModelFileReleaseNotesFile](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/ModelFile/ModelFileVersion/ModelFileReleaseNotesFile) release notes link or file
-
-
-### SimulationModel/SimModManufacturerInformation/Phone (SMC)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimModManufacturerInformation/Phone](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimModManufacturerInformation/Phone) Phone number including type
+[https://admin-shell.io/idta/SimulationModels/1/0/ModelFileReleaseNotesFile](https://admin-shell.io/idta/SimulationModels/1/0/ModelFileReleaseNotesFile) release notes link or file
 
 
-### SimulationModel/Ports/PortsConnector (SMC)
+### SimModManufacturerInformation/Phone (SMC)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector)
+[https://admin-shell.io/idta/SimulationModels/1/0/SimModManufacturerInformation/Phone](https://admin-shell.io/idta/SimulationModels/1/0/SimModManufacturerInformation/Phone) Phone number including type
+
+
+### PortsConnector (SMC)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/PortsConnector](https://admin-shell.io/idta/SimulationModels/1/0/PortsConnector)
 
 List of ports of the model. These include a name, a description, a list of variables, and a list of ports. 
 
-### SimulationModel/Ports/BinaryConnector (SMC)
+### BinaryConnector (SMC)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/BinaryConnector](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/BinaryConnector)
+[https://admin-shell.io/idta/SimulationModels/1/0/BinaryConnector](https://admin-shell.io/idta/SimulationModels/1/0/BinaryConnector)
 List of Binary interfaces (binaryType) based on the FMI 3.0 standard (https://fmi-standard.org/Docs/3.0-dev/#definition-of-types). At this point the name (e.g. "Binary interface visualization") and the description (e.g. "Interface for binary transfer of visualization information") are specified. 
 
 
-### SimulationModel/Ports/PortConnector/PortConnectorName (Property)
+### PortConnectorName (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/PortConnectorName](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/PortConnectorName)
+[https://admin-shell.io/idta/SimulationModels/1/0/PortConnectorName](https://admin-shell.io/idta/SimulationModels/1/0/PortConnectorName)
 
 Name of the Connector Port.
 
-### SimulationModel/PortsConnector/PortConDescription (MLP)
+### PortConDescription (MLP)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/PortConDescription](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/PortConDescription)
+[https://admin-shell.io/idta/SimulationModels/1/0/PortConDescription](https://admin-shell.io/idta/SimulationModels/1/0/PortConDescription)
 
 Description of the Connector Port. 
 
-### SimulationModel/Ports/PortConnector/Variable (SMC)
+### Variable (SMC)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable)
+[https://admin-shell.io/idta/SimulationModels/1/0/Variable](https://admin-shell.io/idta/SimulationModels/1/0/Variable)
 
 List of variables of the port. 
 
 
-### SimulationModel/Ports/PortConnector/Variable/VariableName (Property)
+### VariableName (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableName](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableName) Name of the variable. 
+[https://admin-shell.io/idta/SimulationModels/1/0/VariableName](https://admin-shell.io/idta/SimulationModels/1/0/VariableName) Name of the variable. 
 
-### SimulationModel/Ports/PortConnector/Variable/Range (Property)
+### Range (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/Range](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/Range) Range of values for the variable (e.g. [min, max], [min, max[, ]min, max], ]min, max[, {val1, val2, ...}). 
-
-
-### SimulationModel/Ports/PortConnector/Variable/VariableType (Property)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableType](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableType) Type of the variable (e.g. Real, Integer, Boolean, String or Enum).
-
-### SimulationModel/Ports/PortConnector/Variable/VariableDescription (MLP)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableDescription](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableDescription) Description of the variable. 
-
-### SimulationModel/Ports/PortConnector/Variable/UnitList (Property)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/UnitList](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/UnitList) The most common units can be selected here. If "others" is selected, a free text can be entered. 
-
-### SimulationModel/Ports/PortConnector/Variable/UnitDescription (MLP)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/UnitDescription](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/UnitDescription) Text field for missing units of the list.
+[https://admin-shell.io/idta/SimulationModels/1/0/Range](https://admin-shell.io/idta/SimulationModels/1/0/Range) Range of values for the variable (e.g. [min, max], [min, max[, ]min, max], ]min, max[, {val1, val2, ...}). 
 
 
-### SimulationModel/Ports/PortConnector/Variable/VariableCausality (Property)
+### VariableType (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableCausality](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableCausality) The causality of the variable: input to inputs, output to ouputs, acausal connections (e.g. mechanical connection) do not have causality.
+[https://admin-shell.io/idta/SimulationModels/1/0/VariableType](https://admin-shell.io/idta/SimulationModels/1/0/VariableType) Type of the variable (e.g. Real, Integer, Boolean, String or Enum).
 
-### SimulationModel/Ports/PortConnector/Variable/VariablePrefix (Property)
+### VariableDescription (MLP)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariablePrefix](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariablePrefix) Prefix for acausal variable. Potential variables are set equal when connecting (no prefix). Stream variables are connected according to Kirchhoff's law, i.e. the sum of the variables equals zero. The bi-directional flow of matter is described with "stream" (e.g. for enthalpy). 
+[https://admin-shell.io/idta/SimulationModels/1/0/VariableDescription](https://admin-shell.io/idta/SimulationModels/1/0/VariableDescription) Description of the variable. 
+
+### UnitList (Property)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/UnitList](https://admin-shell.io/idta/SimulationModels/1/0/UnitList) The most common units can be selected here. If "others" is selected, a free text can be entered. 
+
+### UnitDescription (MLP)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/UnitDescription](https://admin-shell.io/idta/SimulationModels/1/0/UnitDescription) Text field for missing units of the list.
 
 
-### SimulationModel/Ports/BinaryConnector/BinaryConName (Property)
+### VariableCausality (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/BinaryConnector/BinaryConName](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/BinaryConnector/BinaryConName) Binary interface name. 
+[https://admin-shell.io/idta/SimulationModels/1/0/VariableCausality](https://admin-shell.io/idta/SimulationModels/1/0/VariableCausality) The causality of the variable: input to inputs, output to ouputs, acausal connections (e.g. mechanical connection) do not have causality.
 
-### SimulationModel/BinaryConnector/BinaryConDescription (Property)
+### VariablePrefix (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/BinaryConnector/BinaryConDescription](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/BinaryConnector/BinaryConDescription) Binary interface description. 
+[https://admin-shell.io/idta/SimulationModels/1/0/VariablePrefix](https://admin-shell.io/idta/SimulationModels/1/0/VariablePrefix) Prefix for acausal variable. Potential variables are set equal when connecting (no prefix). Stream variables are connected according to Kirchhoff's law, i.e. the sum of the variables equals zero. The bi-directional flow of matter is described with "stream" (e.g. for enthalpy). 
+
+
+### BinaryConName (Property)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/BinaryConName](https://admin-shell.io/idta/SimulationModels/1/0/BinaryConName) Binary interface name. 
+
+### BinaryConDescription (Property)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/BinaryConDescription](https://admin-shell.io/idta/SimulationModels/1/0/BinaryConDescription) Binary interface description. 
 
 ## Versions: [1.0](.)
 This version is the first version to be officially published by IDTA Document `Provision of simulation models 1.0`.
