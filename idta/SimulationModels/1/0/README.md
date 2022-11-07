@@ -89,16 +89,16 @@ Summary of the contents of the simulation model in text form.
 
 List of simulation purposes for which the model is intended
 
-### SimulationModel/SimPurpose/negSimPurpose (Property)
+### SimulationModel/SimPurpose/NegSimPurpose (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimPurpose/negSimPurpose](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimPurpose/negSimPurpose)
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimPurpose/NegSimPurpose](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/SimPurpose/NegSimPurpose)
 
 List of simulation purposes for which the model is explicitly not suitable. 
 
 
-### SimulationModel/Environment/operatingSystem (Property)
+### SimulationModel/Environment/OperatingSystem (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/operatingSystem](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/operatingSystem)
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/OperatingSystem](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/OperatingSystem)
 
 ### SimulationModel/Environment/ToolEnvironment (Property)
 
@@ -125,7 +125,7 @@ Contains properties of the model with regarding to concrete simulation tools.
 ### SimulationModel/Environment/SimulationTool/SimToolName (Property)
 
 [https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SimToolName](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/SimToolName) Name of the simulation tool including version.
-## HERE continue
+
 ### SimulationModel/Environment/SimulationTool/DependencySimTool (Property)
 
 [https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/DependencySimTool](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Environment/SimulationTool/DependencySimTool) Dependencies of Simulation Tools.
@@ -228,65 +228,65 @@ List of ports of the model. These include a name, a description, a list of varia
 List of Binary interfaces (binaryType) based on the FMI 3.0 standard (https://fmi-standard.org/Docs/3.0-dev/#definition-of-types). At this point the name (e.g. "Binary interface visualization") and the description (e.g. "Interface for binary transfer of visualization information") are specified. 
 
 
-### SimulationModel/Ports/PortConnector/PortConnectorName (Property)
+### SimulationModel/Ports/PortsConnector/PortConnectorName (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/PortConnectorName](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/PortConnectorName)
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/PortConnectorName](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/PortConnectorName)
 
 Name of the Connector Port.
 
-### SimulationModel/PortsConnector/PortConDescription (MLP)
+### SimulationModel/Ports/PortsConnector/PortConDescription (MLP)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/PortConDescription](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/PortConDescription)
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/PortConDescription](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/PortConDescription)
 
 Description of the Connector Port. 
 
-### SimulationModel/Ports/PortConnector/Variable (SMC)
+### SimulationModel/Ports/PortsConnector/Variable (SMC)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable)
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable)
 
 List of variables of the port. 
 
 
-### SimulationModel/Ports/PortConnector/Variable/VariableName (Property)
+### SimulationModel/Ports/PortsConnector/Variable/VariableName (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableName](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableName) Name of the variable. 
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/VariableName](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/VariableName) Name of the variable. 
 
-### SimulationModel/Ports/PortConnector/Variable/Range (Property)
+### SimulationModel/Ports/PortsConnector/Variable/Range (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/Range](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/Range) Range of values for the variable (e.g. [min, max], [min, max[, ]min, max], ]min, max[, {val1, val2, ...}). 
-
-
-### SimulationModel/Ports/PortConnector/Variable/VariableType (Property)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableType](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableType) Type of the variable (e.g. Real, Integer, Boolean, String or Enum).
-
-### SimulationModel/Ports/PortConnector/Variable/VariableDescription (MLP)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableDescription](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableDescription) Description of the variable. 
-
-### SimulationModel/Ports/PortConnector/Variable/UnitList (Property)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/UnitList](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/UnitList) The most common units can be selected here. If "others" is selected, a free text can be entered. 
-
-### SimulationModel/Ports/PortConnector/Variable/UnitDescription (MLP)
-
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/UnitDescription](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/UnitDescription) Text field for missing units of the list.
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/Range](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/Range) Range of values for the variable (e.g. [min, max], [min, max[, ]min, max], ]min, max[, {val1, val2, ...}). 
 
 
-### SimulationModel/Ports/PortConnector/Variable/VariableCausality (Property)
+### SimulationModel/Ports/PortsConnector/Variable/VariableType (Property)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableCausality](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariableCausality) The causality of the variable: input to inputs, output to ouputs, acausal connections (e.g. mechanical connection) do not have causality.
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/VariableType](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/VariableType) Type of the variable (e.g. Real, Integer, Boolean, String or Enum).
 
-### SimulationModel/Ports/PortConnector/Variable/VariablePrefix (Property)
+### SimulationModel/Ports/PortsConnector/Variable/VariableDescription (MLP)
 
-[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariablePrefix](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortConnector/Variable/VariablePrefix) Prefix for acausal variable. Potential variables are set equal when connecting (no prefix). Stream variables are connected according to Kirchhoff's law, i.e. the sum of the variables equals zero. The bi-directional flow of matter is described with "stream" (e.g. for enthalpy). 
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/VariableDescription](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/VariableDescription) Description of the variable. 
+
+### SimulationModel/Ports/PortsConnector/Variable/UnitList (Property)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/UnitList](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/UnitList) The most common units can be selected here. If "others" is selected, a free text can be entered. 
+
+### SimulationModel/Ports/PortsConnector/Variable/UnitDescription (MLP)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/UnitDescription](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/UnitDescription) Text field for missing units of the list.
+
+
+### SimulationModel/Ports/PortsConnector/Variable/VariableCausality (Property)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/VariableCausality](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/VariableCausality) The causality of the variable: input to inputs, output to ouputs, acausal connections (e.g. mechanical connection) do not have causality.
+
+### SimulationModel/Ports/PortsConnector/Variable/VariablePrefix (Property)
+
+[https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/VariablePrefix](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/PortsConnector/Variable/VariablePrefix) Prefix for acausal variable. Potential variables are set equal when connecting (no prefix). Stream variables are connected according to Kirchhoff's law, i.e. the sum of the variables equals zero. The bi-directional flow of matter is described with "stream" (e.g. for enthalpy). 
 
 
 ### SimulationModel/Ports/BinaryConnector/BinaryConName (Property)
 
 [https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/BinaryConnector/BinaryConName](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/BinaryConnector/BinaryConName) Binary interface name. 
 
-### SimulationModel/BinaryConnector/BinaryConDescription (Property)
+### SimulationModel/Ports/BinaryConnector/BinaryConDescription (Property)
 
 [https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/BinaryConnector/BinaryConDescription](https://admin-shell.io/idta/SimulationModels/1/0/SimulationModel/Ports/BinaryConnector/BinaryConDescription) Binary interface description. 
 
