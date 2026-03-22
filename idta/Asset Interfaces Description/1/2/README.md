@@ -230,6 +230,21 @@ https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/decodedPayloa
 
 ---
 
+## CAN specific identifiers
+
+### canv_offset (Property)
+Offset to indicate the beginning of a data point in the message payload. Must be in the range [0, 63].
+https://admin-shell.io/idta/AssetInterfacesDescription/1/2/CAN/offset
+
+### canv_length (Property)
+Length of the data point in the message payload. Must be in the range [1, 64].
+https://admin-shell.io/idta/AssetInterfacesDescription/1/2/CAN/length
+
+### canv_valueOffset (Property)
+A constant to add to the decoded data point in order to restore its actual value. “valueType” must match the "property_name.type" field.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/2/CAN/value-offset
+
+
 ## Interface supplementalSemanticIds
 
 ### SNMP
