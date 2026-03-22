@@ -26,33 +26,47 @@ The sub-namespace for Asset Interface Description and its identifiers have been 
 ## Versions: [1.2](3/3)
 This version is the third version to be officially published by IDTA Document `IDTA 02017 Asset Interfaces Description`.
 
-## SNMP (SMC)
-SNMP Specifi Indenifier
 
-https://admin-shell.io/idta/AssetInterfacesDescription/1/2/SNMP
+## IO-Link specific identifiers
 
-## CAN (SMC)
+### hasMethod (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/hasMethod
 
-CAN specific identifiers
-https://admin-shell.io/idta/AssetInterfacesDescription/1/2/CAN
+### hasPayloadDataType (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/hasPayloadDataType
 
-### canv_offset (Property)
-Offset to indicate the beginning of a data point in the message payload. Must be in the range [0, 63].
-https://admin-shell.io/idta/AssetInterfacesDescription/1/2/CAN/offset
+### hasAccessRights (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/hasAccessRights
 
-### canv_length (Property)
-Length of the data point in the message payload. Must be in the range [1, 64].
-https://admin-shell.io/idta/AssetInterfacesDescription/1/2/CAN/length
+### byteOffset (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/byteOffset
 
-### canv_valueOffset (Property)
-A constant to add to the decoded data point in order to restore its actual value. “valueType” must match the "property_name.type" field.
-https://admin-shell.io/idta/AssetInterfacesDescription/1/2/CAN/value-offset
+### byteLength (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/byteLength
 
+### bitOffset (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/bitOffset
 
-## Interface supplementalSemanticIds
+### bitLength (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/bitLength
 
+### hasPayloadMapping (SML)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/hasPayloadMapping
 
+### referenceToProperty (Ref)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/referenceToProperty
 
+### hasEnumeratedValues (SML)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/hasEnumeratedValues
+
+### enumeratedValue (SMC)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/enumeratedValue
+
+### encodedPayload (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/encodedPayload
+
+### decodedPayload (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/decodedPayload
 
 
 ## Contact
