@@ -23,11 +23,11 @@ As a complement to the AID, an Asset Interfaces Mapping Configuration (AIMC) Sub
 ## Status: `Accepted`
 The sub-namespace for Asset Interface Description and its identifiers have been finalized in the Taskforce `Asset Interface Description`.
 
-## Versions: [1.2](3/3)
+## Versions: 1.2
 This version is the third version to be officially published by IDTA Document `IDTA 02017 Asset Interfaces Description`.
 
 ## SNMP (SMC)
-SNMP Specifi Indenifier
+SNMP Specific Identifier
 
 https://admin-shell.io/idta/AssetInterfacesDescription/1/2/SNMP
 
