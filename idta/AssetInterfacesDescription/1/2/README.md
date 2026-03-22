@@ -29,6 +29,207 @@ The sub-namespace for Asset Interface Description and its identifiers have been 
 ## Versions: 1.2
 This version is the third version to be officially published by IDTA Document `IDTA 02017 Asset Interfaces Description`.
 
+## Interface (SMC)
+This SubmodelElementCollection holds the information for EndpointMetadata, InteractionMetadata and ExternalDescriptor.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/Interface
+
+### title (Property)
+Provides a human-readable title.
+https://www.w3.org/2019/wot/td#title
+
+### created (Property)
+Provides creation timestamp.
+http://purl.org/dc/terms/created
+
+### modified (Property)
+Provides modification timestamp.
+http://purl.org/dc/terms/modified
+
+### support (Property)
+Contact information.
+https://www.w3.org/2019/wot/td#support
+
+### EndpointMetadata (SMC)
+Metadata of the interface endpoint.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/EndpointMetadata
+
+### InteractionMetadata (SMC)
+Metadata describing datapoints and functions.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/InteractionMetadata
+
+### ExternalDescriptor (SMC)
+Descriptor file references.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/ExternalDescriptor
+
+---
+
+## EndpointMetadata (SMC)
+Holds information about the endpoint.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/EndpointMetadata
+
+### base (Property)
+Defines base URI.
+https://www.w3.org/2019/wot/td#baseURI
+
+### contentType (Property)
+Defines content type.
+https://www.w3.org/2019/wot/hypermedia#forContentType
+
+### security (SML)
+Security configuration.
+https://www.w3.org/2019/wot/td#hasSecurityConfiguration
+
+### modv_mostSignificantByte (Property)
+Modbus byte order.
+https://www.w3.org/2019/wot/modbus#hasMostSignificantByte
+
+### modv_mostSignificantWord (Property)
+Modbus word order.
+https://www.w3.org/2019/wot/modbus#hasMostSignificantWord
+
+### securityDefinitions (SMC)
+Security scheme definitions.
+https://www.w3.org/2019/wot/td#definesSecurityScheme
+
+---
+
+## InteractionMetadata (SMC)
+Defines interaction affordances.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/InteractionMetadata
+
+### properties (SMC)
+Datapoint definitions.
+https://www.w3.org/2019/wot/td#PropertyAffordance
+
+### actions (SMC)
+Function definitions.
+https://www.w3.org/2019/wot/td#ActionAffordance
+
+### events (SMC)
+Event definitions.
+https://www.w3.org/2019/wot/td#EventAffordance
+
+---
+
+## properties (SMC)
+Collection of interaction properties.
+https://www.w3.org/2019/wot/td#hasPropertyAffordance
+
+---
+
+## property_name (SMC)
+Defines datapoint characteristics.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/PropertyDefinition
+
+### key (Property)
+Optional key.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/key
+
+### title (Property)
+Human-readable title.
+https://www.w3.org/2019/wot/td#title
+
+### observable (Property)
+Observation indicator.
+https://www.w3.org/2019/wot/td#isObservable
+
+### forms (SMC)
+Resource locations.
+https://www.w3.org/2019/wot/td#hasForm
+
+### type (Property)
+Datatype indicator.
+https://www.w3.org/1999/02/22-rdf-syntax-ns#type
+
+### const (Property)
+Constant value.
+https://www.w3.org/2019/wot/json-schema#const
+
+### enum (SML)
+Restricted value list.
+https://www.w3.org/2019/wot/json-schema#enum
+
+### default (Property)
+Default value.
+https://www.w3.org/2019/wot/json-schema#default
+
+### unit (Property)
+Measurement unit.
+https://schema.org/unitCode
+
+### min_max (Range)
+Numeric limits.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/minMaxRange
+
+### lengthRange (Range)
+String length range.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/lengthRange
+
+### itemsRange (Range)
+Array length limits.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/itemsRange
+
+### items (SMC)
+Array item schema.
+https://www.w3.org/2019/wot/json-schema#items
+
+### valueSemantics (Ref)
+Semantic meaning.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/valueSemantics
+
+---
+
+## ExternalDescriptor (SMC)
+Reference to external descriptors.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/ExternalDescriptor
+
+### descriptorName (File)
+Descriptor filename.
+https://admin-shell.io/idta/AssetInterfacesDescription/1/0/externalDescriptorName
+
+## IO-Link specific identifiers
+
+### hasMethod (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/hasMethod
+
+### hasPayloadDataType (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/hasPayloadDataType
+
+### hasAccessRights (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/hasAccessRights
+
+### byteOffset (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/byteOffset
+
+### byteLength (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/byteLength
+
+### bitOffset (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/bitOffset
+
+### bitLength (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/bitLength
+
+### hasPayloadMapping (SML)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/hasPayloadMapping
+
+### referenceToProperty (Ref)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/referenceToProperty
+
+### hasEnumeratedValues (SML)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/hasEnumeratedValues
+
+### enumeratedValue (SMC)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/enumeratedValue
+
+### encodedPayload (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/encodedPayload
+
+### decodedPayload (Property)
+https://admin-shell.io/idta/AssetInterfacesDescription/1/1/IO-Link/decodedPayload
+
+
+
 ## SNMP (SMC)
 SNMP Specific Identifier
 
