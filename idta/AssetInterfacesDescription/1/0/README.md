@@ -24,7 +24,7 @@ As a complement to the AID, an Asset Interfaces Mapping Configuration (AIMC) Sub
 The sub-namespace for Asset Interface Description and its identifiers have been finalized in the Taskforce `Asset Interface Description`.
 
 ## Versions: 1.0
-This version is the third version to be officially published by IDTA Document `IDTA 02017 Asset Interfaces Description`.
+This version is the first version to be officially published by IDTA Document `IDTA 02017 Asset Interfaces Description`.
 
 
 ## Interface (SMC)
