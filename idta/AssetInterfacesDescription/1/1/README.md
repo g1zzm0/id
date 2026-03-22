@@ -12,6 +12,7 @@ The Asset Interfaces Description (AID) in version 1.2 supports the description o
 * MQTT
 * OPC UA
 * BACnet
+* IO-Link
   
 Informative, the IO-Link protocol that is bridged to REST/HTTP and PROFINET is introduced in AID 1.2 in Annex B. Any other protocols and interfaces will be addressed in upcoming versions of the AID. 
 The W3C Web of Things Thing Description (WoT TD) as an open, royalty-free standard is considered as a baseline for the content and structure of the definition of this Submodel template. The protocol-specific information is taken from the official WoT bindings that are maintained by the W3C or other SDOs like the OPC Foundation (e.g., OPC 10101 for OPC UA Binding).  
